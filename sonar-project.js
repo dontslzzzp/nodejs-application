@@ -14,6 +14,6 @@ sonarqubeScanner({
             'sonar.sourceEncoding':'UTF-8',
             'sonar.sources': '.',
 	  //'sonar.tests': 'specs',
-          //'sonar.inclusions' : 'src/**'
+            'sonar.inclusions' : '**'
        },
 }, () => {});
